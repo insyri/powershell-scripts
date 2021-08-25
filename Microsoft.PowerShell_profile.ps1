@@ -7,3 +7,4 @@
 # code $profile
 # https://stackoverflow.com/questions/32069265/how-do-you-set-powershells-default-directory
 Set-location C:\files
+# C:\files can be customized to what path you want it to start on.
