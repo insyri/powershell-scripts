@@ -6,4 +6,5 @@ function Restart-PowerShell{
     exit # Exit existing PowerShell host window
 }
 # Add any alias if you want, for ex. rps (rp already occupied by "Remove-ItemProperty”)
-Set-Alias -Name ("rps", "restart") -Value "Restart-PowerShell"
+Set-Alias -Name "rps" -Value "Restart-PowerShell"
+Set-Alias -Name "restart" -Value "Restart-PowerShell"
